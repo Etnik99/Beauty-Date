@@ -1,0 +1,18 @@
+@font-face {
+  font-family: brush-script;
+  src: url(../fonts/BRUSHSCI.ttf);
+}
+#main-slider h2 {
+  color: #707070;
+  font-family: brush-script;
+  font-size: 90px;
+}
+
+#main-slider button {
+  padding: 8px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  background-color: #707070;
+  border-radius: 8px;
+}

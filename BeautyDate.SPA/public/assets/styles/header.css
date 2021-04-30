@@ -1,0 +1,30 @@
+header#main-header {
+  color: #fff;
+  background: #ffffff;
+  padding: 14px 64px;
+  text-align: center;
+}
+#main-header h1 {
+  font-family: brush-script;
+  color: #707070;
+}
+
+nav {
+  width: 100%;
+  padding: 26px 0;
+  border-bottom: 3px solid #dfc369;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 0 14px;
+  color: #707070;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}

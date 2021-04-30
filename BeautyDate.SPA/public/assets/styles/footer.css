@@ -1,0 +1,56 @@
+@font-face {
+  font-family: brush-script;
+  src: url(../fonts/BRUSHSCI.ttf);
+}
+footer {
+  padding-top: 24px;
+  background-color: #dfc369;
+  text-align: center;
+}
+.footer-nav {
+  list-style-type: none;
+  padding: 24px 0 0 0;
+}
+.footer-nav li {
+  padding: 14px 0;
+}
+.footer-nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.footer-nav-title {
+  color: #fff;
+  font-weight: bold;
+}
+.footer-copyright {
+  padding: 14px 0;
+  color: #fff;
+}
+.footer-title {
+  padding: 24px 0 48px 0;
+  color: #fff;
+}
+.footer-title {
+  font-family: brush-script;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-title::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 30%;
+  background-color: #fff;
+}
+.footer-title::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  height: 2px;
+  width: 30%;
+  background-color: #fff;
+}

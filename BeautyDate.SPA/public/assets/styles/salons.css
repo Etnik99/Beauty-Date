@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  border: 1px solid #dfc369;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.card-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.card-description {
+  font-size: 16px;
+  font-weight: normal;
+}
+.card-salon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+.card-salon-location {
+  max-width: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-salon-location .icon {
+  font-size: 48px;
+  color: #707070;
+}
+.card-salon-address {
+  color: #707070;
+}

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: brush-script;
+  src: url(../fonts/BRUSHSCI.ttf);
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#booking-section h2 {
+  color: white;
+  font-family: "Times New Roman";
+  font-weight: 200;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.slider-img {
+  max-width: 640px;
+}
+.service-image {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.service-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-box:hover .service-image {
+  box-shadow: 0 0 16px 1px #000;
+  transition: ease-in-out 0.6s;
+}
+.service-title {
+  padding-top: 24px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #707070;
+}
+.section-title {
+  padding: 24px 0;
+  text-align: center;
+  color: #707070;
+}
+.section-title h1 {
+  font-size: 24px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+section {
+  padding: 24px 0;
+}
+#booking-section {
+  background-color: #dfc369;
+  padding: 64px 0;
+}
+.reservation-form {
+  max-width: 420px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 24px 48px;
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.473);
+}
+.reservation-form .tabs {
+  padding: 12px 24px;
+  border-bottom: 1px solid #707070;
+}
+.reservation-form .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+}
+.reservation-form .form .drop-down select {
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: 2px solid #d4d4d4;
+  width: 100%;
+}
+.reservation-form .form input[type="date"] {
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: 2px solid #d4d4d4;
+  width: 100%;
+}
+.btn.btn-submit {
+  margin: 8px 0;
+  padding: 12px 24px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+}
+.reservation-section-text {
+  text-align: left;
+  padding: 0 0 0 48px;
+  font-size: 26px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reservation-form {
+    min-width: 400px;
+  }
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
